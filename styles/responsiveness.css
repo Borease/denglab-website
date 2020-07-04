@@ -1,0 +1,204 @@
+@charset "utf-8";
+/*Simplify width and height calculations*/
+html {
+	box-sizing: border-box;	
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	color: #1E1E1E;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-left: 0%;
+	margin-bottom: 0%;
+	background-color: #EFF5F8;
+}
+#wrapper {
+	position: absolute;
+	width: 100%;
+}
+#wrapper header {
+	background-color: #1E1E1E;
+	color: white;
+	margin-top: -12px;
+	position: static;
+	width: 100%;
+	clear: both;
+	height: 78px;
+}
+#wrapper header #PKUlogo {
+	display: none;
+
+
+
+}
+#wrapper header nav {
+	position: absolute;
+	top: 0.1%;
+	width: 31em;
+	left: 72%;
+}
+h1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	float: none;
+	width: 11em;
+	font-size: 25px;
+	height: auto;
+	position: relative;
+	left: 9%;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+a:link {
+	color: #F68979;
+}
+a:visited {
+	color: #FF944C;
+}
+a:hover, a:active, a:focus {
+	color: #7F3300;
+	text-decoration: underline;
+}
+#menulink {
+	width: 19%;
+	text-align: center;
+}
+#menulink a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+#navlinks {
+	text-align: left;
+	list-style-type: none;
+	/* [disabled]background-color: #000000; */
+	background-color: rgba(0,0,0,0.66);
+	-webkit-transition: all ease-out 0.5s;
+	transition: all ease-out 0.5s;
+	width: 30%;
+	position: absolute;
+	z-index: 109;
+	float: left;
+	margin-left: -13px;
+	margin-top: -21px;
+}
+
+#navlinks.display {
+	opacity: 1;
+}
+#navlinks.start {
+	display: none;
+}
+#navlinks.collapsed {
+	top: -20em;
+	opacity: 0;
+}
+#navlinks a {
+	color: white;
+	font-weight: 400;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#navlinks a:hover, #navlinks a:active, #navlinks a:focus, #navlinks a.thispage {
+	color: #F68979;
+}
+
+
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #1E1E1E;
+	color: white;
+	font-size: 0.8em;
+	text-align: center;
+	clear: both;
+}
+#footerList {
+	list-style-type: none;
+}
+#wrapper #rtop {
+	clear: both;
+	margin-left: 9%;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 700px){
+#wrapper header #PKUlogo {
+	position: relative;
+	left: 4%;
+	float: left;
+	display: block;
+	top: -96%;
+}
+#wrapper header nav {
+	position: absolute;
+	top: 0.1%;
+	width: 52em;
+	left: 42%;
+
+}
+
+#menulink {
+	display: none;
+}
+#navlinks {
+	float: none;
+	width: 1500px;
+	left: 20%;
+	padding: 20 auto;
+	position: static;
+	margin-top: 14px;
+}
+#navlinks.collapsed {
+	opacity: 1;
+	padding-right: 0px;
+}
+#navlinks a {
+	margin-bottom: 20px;
+	float: left;
+	padding-right: 0px;
+	margin-right: 29px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	max-width: 9em;
+}
+footer {
+
+}
+#footerList {
+	width: 100%;
+
+
+
+
+
+}
+#footerList td {
+	text-align: center;
+	width: 0.1%;
+}
+
+
+
+
+}

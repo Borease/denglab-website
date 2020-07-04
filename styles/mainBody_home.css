@@ -1,0 +1,49 @@
+@charset "utf-8";
+/*Simplify width and height calculations*/
+html {
+	box-sizing: border-box;	
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+main {
+	margin-top: 0;
+	margin-right: auto;
+	margin-left: 9%;
+	margin-bottom: 0;
+	width: 50%;
+}
+aside {
+	width: 28%;
+	margin-left: 4%;
+}
+main, aside {
+	margin-top: 30;
+	margin-right: auto;
+	margin-bottom: 30;
+	float: left;
+}
+main img {
+	max-width: 499px;
+	width: 100%;
+}
+#welcome-container {
+	width: 40%;
+	margin-left: 6.6%;
+	float: left;
+}
+#wowslider-container1  {
+	width: 700px;
+	margin-top: 6%;
+}
+
+@media (max-width:1396px){
+#welcome-container {
+	width: 82%;
+	margin-left: 9%;
+	margin-right: 9%;
+
+}
+
+
+}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+.card_collect   {
+	list-style-type: none;
+}
+.selfie_container   {
+	width: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.name, .title  {
+	width: 15em;
+	text-align: center;
+
+}
+.title {
+	font-style: italic;
+	text-align: center;
+	left: 6%;
+	position: relative;
+}
+
+#lableader1 .selfie_container, #lableader1 .name, #lableader1 .title {
+	position: relative;
+	left: 38%;
+}
+#students .card-wraper .card_collect {
+	margin-left: 7.1%;
+}
+
+#students .card-wraper .card_collect tbody tr .card_content {
+	width: 1%;
+}

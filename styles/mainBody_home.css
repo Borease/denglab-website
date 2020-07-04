@@ -14,7 +14,7 @@ main {
 	width: 50%;
 }
 aside {
-	width: 28%;
+	width: 32%;
 	margin-left: 4%;
 }
 main, aside {
@@ -29,7 +29,7 @@ main img {
 }
 #welcome-container {
 	width: 40%;
-	margin-left: 6.6%;
+	margin-left: 9%;
 	float: left;
 }
 #wowslider-container1  {

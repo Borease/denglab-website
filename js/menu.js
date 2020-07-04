@@ -23,4 +23,4 @@
 			menu.className = 'collapsed';
 		}
 	};	
-})('menulink', 'navlinks', 700);
+})('menulink', 'navlinks', 1256);

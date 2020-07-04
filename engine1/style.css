@@ -68,11 +68,11 @@
 }
 #wowslider-container1 .ws_images .ws_list img,
 #wowslider-container1 .ws_images > div > img{
-	width:100%;
-	border:none 0;
+	width: 100%;
+	border: none 0;
 	max-width: none;
-	padding:0;
-	margin:0;
+	padding: 0;
+	margin: 0;
 }
 #wowslider-container1 .ws_images > div > img {
 	max-height:720px;

@@ -6,42 +6,60 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-main {
-	margin-top: 0;
-	margin-right: auto;
-	margin-left: 9%;
-	margin-bottom: 0;
-	width: 50%;
-}
-aside {
-	width: 32%;
-	margin-left: 4%;
-}
-main, aside {
-	margin-top: 30;
-	margin-right: auto;
-	margin-bottom: 30;
-	float: left;
-}
-main img {
-	max-width: 499px;
-	width: 100%;
-}
 #welcome-container {
 	width: 40%;
 	margin-left: 9%;
-	float: left;
+	position: absolute;
+	top: 264px;
+	right: 0%;
+	display: block;
 }
-#wowslider-container1  {
-	margin-top: 6%;
-	max-width: 700px;
+#wrapper #part1 img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+
+
 }
 
-@media (max-width:1396px){
-#welcome-container {
-	width: 82%;
+#wowslider-container1  {
+	margin-top: 3%;
+	max-width: 700px;
+	margin-left: 9%;
+	float: none;
+}
+#wrapper #part1 {
 	margin-left: 9%;
 	margin-right: 9%;
+}
+#wrapper #part2 {
+	margin-left: 9%;
+	margin-right: 9%;
+}
+#slider_background   {
+	background-color: rgba(0,0,0,0.41);
+	position: relative;
+	display: block;
+	top: 65em;
+	z-index: 5;
+	height: 26px;
+}
+
+
+
+
+@media (max-width:1396px){
+#wowslider-container1  {
+	max-width: 700px;
+	float: none;
+	margin-left: auto;
+}
+#welcome-container {
+	width: 82%;
+	margin-right: 9%;
+	margin-left: 9%;
+	display: none;
 
 }
 

@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+	main {
+	margin: 0 10%;
+	}
+main .p p .p {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+h2#h2header {
+	display: inline-block;
+}
+div#h2header {
+	text-align: center;
+}
+td.nav   {
+	/* [disabled]width: 18%; */
+	background-color: #C23D3D;
+	color: #FFFFFF;
+}
+tbody.nav {
+
+
+}
+
+table.nav {
+	text-align: center;
+	height: 4em;
+	display: inline-table;
+	margin-top: 11px;
+	margin-bottom: 10px;
+	width: 100%;
+}
+h3 {
+	background-color: #FFFFFF;
+	padding: 12px 20px;
+	color: #CF6565;
+	display: inline-block;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	border-style: solid;
+	margin-top: 15px;
+}
+td figure .galleryCaption {
+	display: inline-block;
+	float: left;
+	position: relative;
+	top: -116px;
+	left: 49px;
+	color: #FFFFFF;
+}
+
+figure.gallaryImage {
+	margin: 0;
+	border-style: none;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+}
+table.gallaryImage  {
+	display: inline;
+	border-style: none;
+}
+
+tbody tr td.gallaryImage  {
+	border-style: none;
+	display: table-cell;
+}
+tr .gallaryImage .gallaryImage .gallaryImage {
+	-webkit-box-shadow: 0px 0px 0px;
+	box-shadow: 0px 0px 0px;
+	filter: brightness(50%);
+}
+h4.SMT {
+	border-top: thin solid #BEBEBE;
+}
+td.SMT {
+	width: 34%;
+	text-align: center;
+}
+.singleTF_example {
+	float: left;
+	text-align: center;
+	margin-right: 10%;
+}
+table.singleTF_example {
+	width: 100%;
+
+
+
+
+
+
+
+
+}
+p.exampleCaption {
+	height: 2em;
+
+}
+
+
+.boundTF_example {
+	display: inline-block;
+	text-align: center;
+	width: 43%;
+	clear: left;
+}

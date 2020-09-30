@@ -8,10 +8,14 @@ main .p p .p {
 	margin-right: 10px;
 	margin-bottom: 10px;
 }
-h2#h2header {
+h2.h2header {
 	display: inline-block;
+	margin-top: 141px;
+	margin-bottom: 50px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size: 50px;
 }
-div#h2header {
+div.h2header {
 	text-align: center;
 }
 td.nav   {

@@ -6,62 +6,50 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
-#welcome-container {
-	width: 40%;
-	margin-left: 9%;
-	position: absolute;
-	top: 264px;
-	right: 0%;
-	display: block;
-}
-#wrapper #part1 img {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-
-
-
-}
 
 #wowslider-container1  {
 	margin-top: 3%;
-	max-width: 700px;
+	max-width: 100%;
 	margin-left: 9%;
 	float: none;
-}
-#wrapper #part1 {
-	margin-left: 9%;
-	margin-right: 9%;
-}
-#wrapper #part2 {
-	margin-left: 9%;
-	margin-right: 9%;
 }
 #slider_background   {
 	background-color: rgba(0,0,0,0.41);
 	position: relative;
 	display: block;
-	top: 65em;
+	top: 68em;
 	z-index: 5;
 	height: 26px;
+	width: 83%;
 }
+main#AboutUs {
+	width: 43%;
+	margin-left: 9%;
+	float: left;
+	padding-right: 0%;
+}
+#AboutUs h2 {
+	font-size: 50px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	;
+	;
+}
+aside#GroupImg  {
+	margin-left: 5%;
+	display: inline-block;
+}
+#wrapper #part1 {
+	margin-top: 40px;
+}
+
+
+
+
 
 
 
 
 @media (max-width:1396px){
-#wowslider-container1  {
-	max-width: 700px;
-	float: none;
-	margin-left: auto;
-}
-#welcome-container {
-	width: 82%;
-	margin-right: 9%;
-	margin-left: 9%;
-	display: none;
-
-}
 
 
 }
